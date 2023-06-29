@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Pop;
+    src: url(./font/Poppins-Medium.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: pop;
+}
+
+.Banner{
+    border: 1px solid none;
+    width: 400px;
+    height: 300px;
+    padding: 200px 100px 0px 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: rgb(8, 216, 164);
+    
+}
+
+
+
+h1{
+    align-items: auto;
+    line-height: 35px;
+    box-sizing: border-box;
+    size: 100%;
+    
+}
+
+.profile{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+p{
+    font-size: 13px;
+    box-sizing: 100%;
+    box-sizing: border-box;
+    size: 100%;
+    padding-top: 0px;
+    padding-left: px;
+}
+
+
+.See{
+    color:rgb(6, 190, 252);
+    font-size: 15px;
+}
+
+.btn{
+    border-radius: 50px;
+    background-color: white ;
+    border: none;
+    padding: 7px;
+    margin-top: 10px;
+    width: 150px;
+    box-sizing: border-box;
+    size: 100%;
+}
+
+.Banner2{
+    border: 1px solid lightgray;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px auto;   
+    
+}
+
+
+.banner-img{
+    box-sizing: border-box;
+    size: 100%;
+    width: 25%;
+    margin: 40px;
+    border-radius: 50%;
+    display: flexbox;
+    
+}
+hr{
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.Banner3{
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 450px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+.back{
+    box-sizing: border-box;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+
+.lock{
+    box-sizing: border-box;
+    height: 30px;
+    padding-left: 10px;
+    display: inline;
+}
+
+.head{
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom:0px ;
+}
+
+.title{
+    color: gray;
+    padding-left: 10px;
+    
+}
+
+.para{
+    color: gray;
+    margin-top: 10px;
+    /* margin-bottom: 1px; */
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.btn-view{
+    padding: 10px;
+
+    margin-left: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(6,190, 252);
+}
+
+
+.form{
+    border: 1px solid none;
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.login{
+    box-sizing: border-box;
+    padding: 5px;
+    display: inline;
+    margin: 10px 50px ;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 200px;
+    
+}
+
+.sub{
+    text-align: center;
+    color: gray;
+}
+
+.inp{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.high{
+    text-align: center;
+    color: gray;
+}
+
+.forgot{
+    text-align: center;
+}
+
+.terms{
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+
+}
