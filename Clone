@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Clone</title>
+</head>
+<body>
+    <div class="Banner">
+        
+        <h1 class="Banner-Text">Business <br> Development</h1>
+
+        <p>Have an idea or inquiry for Waze business development?</p>
+
+        <button class="btn">Share your ideas</button>
+        </div>
+
+        <div class="Banner2">
+            <div>
+                <h1 class="profile">Your Profile</h1>
+                <p>See how your different prifiles appear in Google services</p>
+                <img src="./fardin.jpg" alt="fardin img" class="banner-img frist">
+                <img src="./cat.png" alt="icon" class="banner-img second">
+                <hr class="new">
+                <p class="See">See profiles</p>
+            </div>
+        </div>
+
+        <div class="Banner3">
+            
+            <div class="Google">
+            <img src="./bak.jpeg" alt="back" class="back">
+           
+                <img src="./lock.jpeg" alt="" class="lock">
+                <p class="title">SUBSCRIBE TO ANY PLAN</p>
+                <h4 class="head">Get more features in Google</h4>
+                <p class="para"> Bring your favorite moments to life with more Google Photos editing tools for Android and iOS, including Magic Eraser. Subject to eligibility.</p>
+                <button class="btn-view">View details</button>
+            </div>
+        </div>
+   
+        <form>
+<div class="form">
+    <h1 class="title">Flodesk</h1>
+    <p class="sub"> Welcome back!</p>
+    <input type="text" class="inp" placeholder="Enter your email">
+    <input type="password" class="inp" placeholder="Enter your password">
+    <button class="login"> Log in to Flodesk</button>
+
+<div class="bottom">
+    <p class="high">Not a member? Sign up</p>
+    <p class="forgot">Forgot your password?</p>
+
+    <p class="terms">By continuing, you agree to FLodesk's terms and acknowledge you've read our privacy policy</p>
+
+</div>
+</div>
+
+        </form>
+    
+</body>
+</html>
