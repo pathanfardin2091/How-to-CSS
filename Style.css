@@ -1,206 +1,220 @@
-@font-face {
-    font-family: Pop;
-    src: url(./font/Poppins-Medium.ttf);
-}
-
 *{
     padding: 0px;
     margin: 0px;
-    font-family: pop;
+    font-family: Pop;
 }
 
-.Banner{
-    border: 1px solid none;
-    width: 400px;
-    height: 300px;
-    padding: 200px 100px 0px 40px;
-    border-radius: 10px;
-    margin: 20px auto;
-    background-color: rgb(8, 216, 164);
+@font-face {
+    font-family: Pop;
+    src: url(./font/Poppins-Light.ttf);
     
+   
+}
+
+.stk{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 
-
-h1{
-    align-items: auto;
-    line-height: 35px;
-    box-sizing: border-box;
-    size: 100%;
+.Container{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 1280px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    border-bottom: 1px solid rgb(165, 154, 154);
     
+
 }
 
-.profile{
-    font-size: 30px;
-    padding-top: 20px;
-    padding-left: 20px;
+.logo-airbnb{
+    width: 8%;
+    height: 8%;
+    cursor: pointer;
 }
 
-p{
-    font-size: 13px;
-    box-sizing: 100%;
-    box-sizing: border-box;
-    size: 100%;
-    padding-top: 0px;
-    padding-left: px;
-}
-
-
-.See{
-    color:rgb(6, 190, 252);
-    font-size: 15px;
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .btn{
+    width: 350px;
+    height: 35px;
+    border: 1px solid lightgray;
     border-radius: 50px;
-    background-color: white ;
-    border: none;
-    padding: 7px;
-    margin-top: 10px;
-    width: 150px;
-    box-sizing: border-box;
-    size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
 }
-
-.Banner2{
-    border: 1px solid lightgray;
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 20px auto;   
-    
-}
-
-
-.banner-img{
-    box-sizing: border-box;
-    size: 100%;
-    width: 25%;
-    margin: 40px;
-    border-radius: 50%;
-    display: flexbox;
-    
-}
-hr{
-    border: 1px solid lightgray;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-
-.Banner3{
-    box-sizing: border-box;
-    border: 1px solid lightgray;
-    width: 300px;
-    height: 450px;
-    box-sizing: border-box;
-    margin: 20px auto;
-    border-radius: 10px;
-}
-
-
-.back{
-    box-sizing: border-box;
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-}
-
-
-
-.lock{
-    box-sizing: border-box;
-    height: 30px;
-    padding-left: 10px;
-    display: inline;
-}
-
-.head{
-    padding-left: 20px;
-    font-size: 20px;
-    margin-top: 5px;
-    margin-bottom:0px ;
-}
-
-.title{
-    color: gray;
-    padding-left: 10px;
-    
-}
-
-.para{
-    color: gray;
-    margin-top: 10px;
-    /* margin-bottom: 1px; */
-    padding-left: 20px;
-    padding-bottom: 5px;
-}
-
-.btn-view{
-    padding: 10px;
-
-    margin-left: 20px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    background-color: white;
-    color: rgb(6,190, 252);
-}
-
-
-.form{
-    border: 1px solid none;
-    width: 300px;
-    height: 400px;
-    margin: 20px auto;
-}
-
-.title{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.home-para{
+    font-size: 14px;
+    width: 142px;
+    height: 42;
+    padding: 1px;
     text-align: center;
+    border-radius: 50px;
+    
+    
+}
+
+.icon{
+   
+    padding: 7px;
+    border-radius: 50px;
+   
+}
+
+.icon:hover{
+    padding: 7px;
+    background-color: #eee;
+}
+
+.burger-icon{
+    
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.burger-icon:hover{
+    background-color: lightgray;
+}
+
+.left-itmes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 35px;
+    padding: 1px;
+    margin-right: 30px;
+    
+}
+
+.catagories{
+    
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    align-content: center;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+    
+    
+}
+
+.place{
+    width: 20px;
+}
+
+.catagories p{
+    font-size: 12px;
+    display: flex;
+   
+}
+
+.cata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    opacity: 20%;
+}
+
+.cata:hover{
+    opacity: 100%;
+}
+
+.ic{
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.para-btn{
+    display: flex;
+    justify-content: space-between;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin: 20px auto;
+}
+.switch-icon{
+    color: lightgray;
+}
+
+.switch-icon:hover{
     color: black;
 }
 
-.login{
-    box-sizing: border-box;
-    padding: 5px;
-    display: inline;
-    margin: 10px 50px ;
-    border: none;
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-    width: 200px;
+
+
+.para1{
+    border-right: 1px solid gray;
+    padding-right: 7px;
+}
+
+.para2{
+    color: rgb(214, 199, 199);
+}
+
+.box{
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+.img-lonavala{
     
+    width: 100%;
+    height: 240px;
+    border-radius:15px;
+    background-size: cover;
+    
+
 }
 
-.sub{
-    text-align: center;
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.gray{
     color: gray;
 }
 
-.inp{
-    padding: 8px;
-    border-radius: 10px;
-    border: 1px solid lightgray;
-    box-sizing: border-box;
-    margin: 5px;
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 10px;
+    width: 98%;
+    height: auto;
 }
 
-.high{
-    text-align: center;
-    color: gray;
-}
-
-.forgot{
-    text-align: center;
-}
-
-.terms{
-    color: gray;
-    font-size: 10px;
-    text-align: center;
-
+.like{
+    position: absolute;
+    width: 10px;
 }
